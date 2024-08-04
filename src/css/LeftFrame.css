@@ -5,6 +5,7 @@
   align-items: center;
   text-align: center;
   margin: 20px 0;
+  width: 85%;
 }
 
 .separator::before,
@@ -18,11 +19,11 @@
 .separator span {
   padding: 0 10px;
   font-size: 14px;
-  color: #ffffff;
+  color: #666;
+  background-color: #fff;
 }
 
 .leftFrame {
-  background-color: lightblue;
   height: 100%;
   width: 100%;
   border-radius: 10px;
@@ -30,72 +31,108 @@
   flex-direction: column;
   justify-content: space-evenly;
   align-items: center;
-  font-family: 'Hanuman';
+  font-family: "Hanuman";
+  padding: 4% 0;
 }
 
-h1{
-    width: 249px;
-    height: 40px;
+h1 {
+  width: 249px;
+  height: 40px;
 }
 
 .specialColor {
-    color: #C4361D; 
-  }
-  
-
-.apple,.password,.email,button{
-    width: 85%;
-    height: 10%;
-    border: 1px solid #D9D9D9;
-    border-radius: 20px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    font-family: 'Hanuman';
-    background-color: white;
-    color: black;
-    cursor: pointer;
-    box-shadow: 5px 10px 9px gray;
-      
+  color: #c4361d;
 }
 
-input[type="checkbox"]{
-    height: 13px;
-    width: 17px;
+.apple,
+.password,
+.email,
+button {
+  width: 85%;
+  height: 8%;
+  border: 1px solid #d9d9d9;
+  border-radius: 20px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: "Hanuman";
+  background-color: white;
+  color: black;
+  cursor: pointer;
+  box-shadow: 5px 10px 9px gray;
 }
 
-input{
-    height: 100%;
-    width: 100%;
-    background-color: white;
-    padding: 0 5%;
-    font-family: 'Hanuman';
-    outline: none;
-    border-radius: 20px;
-    border: none;
-    color: black;
-    cursor: pointer;
+input[type="checkbox"] {
+  height: 13px;
+  width: 17px;
 }
 
-.remember{
-    display: flex;
-    justify-content: start;
-    align-items:center;
-    gap: 5px;
-    font-size: 0.8em;
-    width: 85%;
-    height: 10%;
-    padding: 0 2%;
-}
-p{
-    text-align: center;
-}
-
-.signup{
-    font-size: 0.8em;
+input {
+  height: 100%;
+  width: 100%;
+  background-color: white;
+  padding: 0 5%;
+  font-family: "Hanuman";
+  outline: none;
+  border-radius: 20px;
+  border: none;
+  color: black;
+  cursor: pointer;
 }
 
-button{
-    background-color: #C4361D;
-    color: white;
+.remember {
+  display: flex;
+  justify-content: start;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8em;
+  width: 85%;
+  height: 10%;
+  padding: 0 2%;
+}
+p {
+  text-align: center;
+}
+
+.signup,
+.apple {
+  font-size: 0.8em;
+}
+
+button {
+  background-color: #c4361d;
+  color: white;
+  border: none;
+}
+
+h6 {
+  margin-top: 10%;
+}
+
+.mdi--hand-wave {
+  display: inline-block;
+  width: 1em;
+  height: 1em;
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 24 24'%3E%3Cpath fill='%23f23e1e' d='M23 17c0 3.31-2.69 6-6 6v-1.5c2.5 0 4.5-2 4.5-4.5zM1 7c0-3.31 2.69-6 6-6v1.5c-2.5 0-4.5 2-4.5 4.5zm7-2.68l-4.59 4.6c-3.22 3.22-3.22 8.45 0 11.67s8.45 3.22 11.67 0l7.07-7.09c.49-.47.49-1.26 0-1.75a1.25 1.25 0 0 0-1.77 0l-4.42 4.42l-.71-.71l6.54-6.54c.49-.49.49-1.28 0-1.77s-1.29-.49-1.79 0L14.19 13l-.69-.73l6.87-6.89c.49-.49.49-1.28 0-1.77s-1.28-.49-1.77 0l-6.89 6.89l-.71-.7l5.5-5.48c.5-.49.5-1.28 0-1.77s-1.28-.49-1.77 0l-7.62 7.62a4 4 0 0 1-.33 5.28l-.71-.71a3 3 0 0 0 0-4.24l-.35-.35l4.07-4.07c.49-.49.49-1.28 0-1.77c-.5-.48-1.29-.48-1.79.01'/%3E%3C/svg%3E");
+}
+
+h3,.email,.password {
+  position: relative;
+}
+
+.svg {
+  position: absolute;
+  top: 10px;
+  left: 105%;
+}
+
+.svgIcon{
+    position: absolute;
+    right: 5%;
+}
+
+.password {
+  margin-top: 5%;
 }
