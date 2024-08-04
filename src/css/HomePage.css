@@ -31,3 +31,9 @@
         width:65%;
     }
   }
+
+  @media (max-width: 500px) {
+    .frame{
+        width:70%;
+    }
+  }
