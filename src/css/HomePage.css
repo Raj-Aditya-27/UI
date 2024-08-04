@@ -1,0 +1,14 @@
+.frame{
+    background-color: lightgreen;
+    height: 80%;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left,.right{
+    border: 1px solid green;
+    width: 50%;
+    height: 100%;
+}
