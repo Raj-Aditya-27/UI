@@ -19,3 +19,15 @@
     width: 100%;
     border-radius: 10px;
 }
+
+@media (max-width: 850px) {
+    .right{
+        display: none;
+    }
+    .left{
+        width: 100%;
+    }
+    .frame{
+        width:65%;
+    }
+  }
