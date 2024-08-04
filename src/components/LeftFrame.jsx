@@ -29,7 +29,7 @@ function LeftFrame() {
       <div className="email">
         <input type="email" name="email" id="email" placeholder="Email" />
         <svg
-            className="svgIcon"
+          className="svgIcon"
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
           height="1em"
@@ -49,7 +49,7 @@ function LeftFrame() {
           placeholder="Password"
         />
         <svg
-        className="svgIcon"
+          className="svgIcon"
           xmlns="http://www.w3.org/2000/svg"
           width="1em"
           height="1em"
