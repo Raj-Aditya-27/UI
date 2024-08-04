@@ -1,21 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Hanuman:wght@100;300;400;700;900&display=swap");
+
 .separator {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.separator::before,
+.separator::after {
+  content: "";
+  flex: 1;
+  border-bottom: 1px solid #ccc;
+  margin: 0 10px;
+}
+
+.separator span {
+  padding: 0 10px;
+  font-size: 14px;
+  color: #ffffff;
+}
+
+.leftFrame {
+  background-color: lightblue;
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  font-family: 'Hanuman';
+}
+
+h1{
+    width: 249px;
+    height: 40px;
+}
+
+.specialColor {
+    color: #C4361D; 
+  }
+  
+
+.apple,.password,.email,button{
+    width: 85%;
+    height: 10%;
+    border: 1px solid #D9D9D9;
+    border-radius: 20px;
     display: flex;
     align-items: center;
+    justify-content: center;
+    font-family: 'Hanuman';
+    background-color: white;
+    color: black;
+    cursor: pointer;
+    box-shadow: 5px 10px 9px gray;
+      
+}
+
+input[type="checkbox"]{
+    height: 13px;
+    width: 17px;
+}
+
+input{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+    padding: 0 5%;
+    font-family: 'Hanuman';
+    outline: none;
+    border-radius: 20px;
+    border: none;
+    color: black;
+    cursor: pointer;
+}
+
+.remember{
+    display: flex;
+    justify-content: start;
+    align-items:center;
+    gap: 5px;
+    font-size: 0.8em;
+    width: 85%;
+    height: 10%;
+    padding: 0 2%;
+}
+p{
     text-align: center;
-    margin: 20px 0; /* Add some space around the separator */
-  }
-  
-  .separator::before,
-  .separator::after {
-    content: '';
-    flex: 1;
-    border-bottom: 1px solid #ccc; 
-    margin: 0 10px; 
-  }
-  
-  .separator span {
-    padding: 0 10px;
-    font-size: 14px; 
-    color: #ffffff; 
-  }
-  
+}
+
+.signup{
+    font-size: 0.8em;
+}
+
+button{
+    background-color: #C4361D;
+    color: white;
+}
